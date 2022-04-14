@@ -1,6 +1,5 @@
-# echarts3-chinese-map-drill-down
-Echarts3中国地图下钻至县级
 
-demo：https://flute.github.io/echarts3-chinese-map-drill-down/
+中国地图下钻至县级
 
-![map drill down](./static/img/map.gif)
+demo：gedehua.cn
+
