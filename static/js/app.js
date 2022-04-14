@@ -47,12 +47,11 @@ var provinces = {
     "香港": "xianggang",
     "澳门": "aomen"
 };
-
+var mapdata = {};
 //直辖市和特别行政区-只有二级地图，没有三级地图
 var special = ["北京", "天津", "上海", "重庆", "香港", "澳门"];
-var mapdata = [];
 //绘制全国地图
-$.getJSON('static/map/china.json', function (data) {
+$.getJSON('/static/map/china.json', function (data) {
     d = [];
     for (var i = 0; i < data.features.length; i++) {
         d.push({
@@ -69,45 +68,60 @@ $.getJSON('static/map/china.json', function (data) {
     renderMap('china', d);
 });
 
-// //地图点击事件
-// chart.on('click', function (params) {
-//     console.log(params);
-//     if (params.name in provinces) {
-//         //如果点击的是34个省、市、自治区，绘制选中地区的二级地图
-//         $.getJSON('static/map/province/' + provinces[params.name] + '.json', function (data) {
-//             echarts.registerMap(params.name, data);
-//             var d = [];
-//             for (var i = 0; i < data.features.length; i++) {
-//                 d.push({
-//                     name: data.features[i].properties.name
-//                 })
-//             }
-//             renderMap(params.name, d);
-//         });
-//     } else if (params.seriesName in provinces) {
-//         //如果是【直辖市/特别行政区】只有二级下钻
-//         if (special.indexOf(params.seriesName) >= 0) {
-//             renderMap('china', mapdata);
-//         } else {
-//             //显示县级地图
-//             $.getJSON('static/map/city/' + cityMap[params.name] + '.json', function (data) {
-//                 echarts.registerMap(params.name, data);
-//                 var d = [];
-//                 for (var i = 0; i < data.features.length; i++) {
-//                     d.push({
-//                         name: data.features[i].properties.name
-//                     })
-//                 }
-//                 renderMap(params.name, d);
-//             });
-//         }
-//     } else {
-//         renderMap('china', mapdata);
-//     }
-// });
+//缩放事件
+var myZoom = 0;
+chart.on('georoam', function (params) {
+    // console.log(params);
+    //console.log(myZoom);
+    // myZoom++;
+    //console.log(params);
+    if (params.dy || params.dx) return;
+
+    if (params.zoom > 1) myZoom++;
+    else myZoom--;
+
+    if (myZoom == 10) {
+        $.getJSON('/static/map/china.json', function (data) {
+            d = [];
+            for (var i = 0; i < data.features.length; i++) {
+                d.push({
+                    name: data.features[i].properties.name,
+                    value: data.features[i].properties.value
+                })
+
+            }
+            //console.log(d);
+            mapdata = d;
+            //注册地图
+            echarts.registerMap('china', data);
+            //绘制地图
+            renderMap('china', d);
+        });
+    } else if (myZoom == 12) {
+        $.getJSON('/static/map/chinaAndCity.json', function (data) {
+            d = [];
+            for (var i = 0; i < data.features.length; i++) {
+                d.push({
+                    name: data.features[i].properties.name,
+                    value: data.features[i].properties.value
+                })
+
+            }
+            // console.log(d);
+            mapdata = d;
+            //注册地图
+            echarts.registerMap('china', data);
+            //绘制地图
+            renderMap('china', d);
+        });
+    }
+})
+
 
 //初始化绘制全国地图配置
 var option = {
+
+
     backgroundColor: '#fff',
     title: {
         text: '4.14疫情信息',
@@ -166,63 +180,63 @@ var option = {
 
 function renderMap(map, dataList) {
     chart.setOption({
-            title: {
-                subtext: map
+        title: {
+            subtext: map
+        },
+        visualMap: {
+            min: 0, //疫情人数最小值
+            max: 500, //疫情人数最大值
+            left: 'right',
+            top: 'center', //右中
+            itemHeight: 300,
+            itemWidth: 20, //长宽
+            text: ['500', '0'], //两端文本的数据
+            //取值范围的文字
+            //Range: [0, 3000],
+            inRange: {
+                //color: ['#e0ffff', '#006edd'], //取值范围的颜色
+                color: ['#e2ebf4', '#de1f05'], //取值范围的颜
+                symbolSize: [30, 100]
             },
-            visualMap: {
-                min: 0, //疫情人数最小值
-                max: 500, //疫情人数最大值
-                left: 'right',
-                top: 'center', //右中
-                itemHeight: 300,
-                itemWidth: 20, //长宽
-                text: ['500', '0'], //两端文本的数据
-                //取值范围的文字
-                //Range: [0, 3000],
-                inRange: {
-                    //color: ['#e0ffff', '#006edd'], //取值范围的颜色
-                    color: ['#e2ebf4', '#de1f05'], //取值范围的颜
-                    symbolSize: [30, 100]
-                },
-                show: true, //是否图注
-                calculable: true, //是否改变鼠标形状
-                realtime: true, //实时更新
-                continuous: {
-                    dimension: 1, //datalist对应的value
-                    seriesIndex: dataList,
-                    //calculable: false,
-                }
+            show: true, //是否图注
+            calculable: true, //是否改变鼠标形状
+            realtime: true, //实时更新
+            continuous: {
+                dimension: 1, //datalist对应的value
+                seriesIndex: dataList,
+                //calculable: false,
+            }
 
+        },
+        //通过series 中的data更新数据
+        series: {
+            data: dataList,
+            //type: 'scatter',
+            name: map,
+            type: 'map',
+            mapType: map,
+            roam: true,
+            // name: 'USA PopEstimates',
+            nameMap: {
+                'china': '中国'
             },
-            //通过series 中的data更新数据
-            series: {
-                data: dataList,
-                //type: 'scatter',
-                name: map,
-                type: 'map',
-                mapType: map,
-                roam: true,
-                // name: 'USA PopEstimates',
-                nameMap: {
-                    'china': '中国'
-                },
+
+            label: {
+                show: true,
+                // 标签的文字。
+                formatter: '{b}'
+            },
+            // 高亮样式。
+            emphasis: {
 
                 label: {
                     show: true,
-                    // 标签的文字。
-                    formatter: '{b}'
-                },
-                // 高亮样式。
-                emphasis: {
-
-                    label: {
-                        show: true,
-                        // 高亮时标签的文字。
-                        formatter: '{c}'
-                    }
-                },
+                    // 高亮时标签的文字。
+                    formatter: '{c}'
+                }
             },
-        }),
-        //渲染地图
-        chart.setOption(option);
+        },
+    });
+    //渲染地图
+    chart.setOption(option);
 }
