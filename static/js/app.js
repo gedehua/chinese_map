@@ -15,7 +15,7 @@ import {
 
 
 let leftTopChart, leftBomtoonChart, rightTopChart, rightBomtoonChart;
-
+$.ajaxSettings.async = false;
 function init() {
     //地图容器
     leftTopChart = echarts.init(document.getElementById('leftTop'));
@@ -23,24 +23,16 @@ function init() {
     rightTopChart = echarts.init(document.getElementById('rightTop'));
     rightBomtoonChart = echarts.init(document.getElementById('rightBomtoon'))
 
-
-
     let mapData = getMapData()[0]; //获取地图数据
     let mapOption = getMapOption(); //获取地图option
     echarts.registerMap('china', mapData); //注册地图
     leftTopChart.setOption(mapOption) //绘制地图
-
+    //默认为北京
+    UpdateMap("北京")
 }
-init();
 
-init1(leftBomtoonChart)
-
-let mm;
-$.ajaxSettings.async = false;
-leftTopChart.on('click', function (param) {
-    let pro = param.data
-    mm = pro.name;
-    $.getJSON("/static/map/province/" + reResMap[pro.name] + '.json', function (param) {
+function UpdateMap(name){
+    $.getJSON("/static/map/province/" + reResMap[name] + '.json', function (param) {
         var mp = [];
         mp.push(['count', 'time', 'message']);
         let data = param.data;
@@ -49,9 +41,21 @@ leftTopChart.on('click', function (param) {
             mp.push([data[i].death, i, '累计死亡人数']);
             mp.push([data[i].cumulative, i, '累计确诊人数']);
         }
-        run1(rightTopChart, mp, mm);
-        run2(rightBomtoonChart, mp, mm);
+        run1(rightTopChart, mp, name);
+        run2(rightBomtoonChart, mp,name);
     })
+}
+
+init();
+
+init1(leftBomtoonChart)
+
+let mm;
+
+leftTopChart.on('click', function (param) {
+    let pro = param.data
+    mm = pro.name;
+    UpdateMap(mm);
 
 })
 
