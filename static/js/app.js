@@ -11,11 +11,12 @@ import {
 } from '/static/js/lineData.js'
 import {
     init1
-} from '/static/js/app2.js'
+} from '/static/js/dynamic_graph.js'
 
 
 let leftTopChart, leftBomtoonChart, rightTopChart, rightBomtoonChart;
 $.ajaxSettings.async = false;
+
 function init() {
     //地图容器
     leftTopChart = echarts.init(document.getElementById('leftTop'));
@@ -31,7 +32,7 @@ function init() {
     UpdateMap("北京")
 }
 
-function UpdateMap(name){
+function UpdateMap(name) {
     $.getJSON("/static/map/province/" + reResMap[name] + '.json', function (param) {
         var mp = [];
         mp.push(['count', 'time', 'message']);
@@ -42,21 +43,15 @@ function UpdateMap(name){
             mp.push([data[i].cumulative, i, '累计确诊人数']);
         }
         run1(rightTopChart, mp, name);
-        run2(rightBomtoonChart, mp,name);
+        run2(rightBomtoonChart, mp, name);
     })
 }
 
 init();
-
 init1(leftBomtoonChart)
-
-let mm;
-
 leftTopChart.on('click', function (param) {
     let pro = param.data
-    mm = pro.name;
-    UpdateMap(mm);
-
+    UpdateMap(pro.data);
 })
 
 
