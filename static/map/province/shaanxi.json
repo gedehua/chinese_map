@@ -1,0 +1,329 @@
+{
+    "name": "陕西",
+    "data": [
+        {
+            "time": "2020.1.15",
+            "existing": 0,
+            "death": 0,
+            "cumulative": 0
+        },
+        {
+            "time": "2020.2.1",
+            "existing": 87,
+            "death": 0,
+            "cumulative": 87
+        },
+        {
+            "time": "2020.2.15",
+            "existing": 181,
+            "death": 0,
+            "cumulative": 230
+        },
+        {
+            "time": "2020.3.1",
+            "existing": 37,
+            "death": 1,
+            "cumulative": 245
+        },
+        {
+            "time": "2020.3.15",
+            "existing": 11,
+            "death": 2,
+            "cumulative": 245
+        },
+        {
+            "time": "2020.4.1",
+            "existing": 8,
+            "death": 3,
+            "cumulative": 253
+        },
+        {
+            "time": "2020.4.15",
+            "existing": 2,
+            "death": 3,
+            "cumulative": 256
+        },
+        {
+            "time": "2020.5.1",
+            "existing": 48,
+            "death": 3,
+            "cumulative": 306
+        },
+        {
+            "time": "2020.5.15",
+            "existing": 4,
+            "death": 3,
+            "cumulative": 308
+        },
+        {
+            "time": "2020.6.1",
+            "existing": 0,
+            "death": 3,
+            "cumulative": 308
+        },
+        {
+            "time": "2020.6.15",
+            "existing": 4,
+            "death": 3,
+            "cumulative": 313
+        },
+        {
+            "time": "2020.7.1",
+            "existing": 8,
+            "death": 3,
+            "cumulative": 320
+        },
+        {
+            "time": "2020.7.15",
+            "existing": 4,
+            "death": 3,
+            "cumulative": 322
+        },
+        {
+            "time": "2020.8.1",
+            "existing": 3,
+            "death": 3,
+            "cumulative": 324
+        },
+        {
+            "time": "2020.8.15",
+            "existing": 24,
+            "death": 3,
+            "cumulative": 351
+        },
+        {
+            "time": "2020.9.1",
+            "existing": 8,
+            "death": 3,
+            "cumulative": 364
+        },
+        {
+            "time": "2020.9.15",
+            "existing": 8,
+            "death": 3,
+            "cumulative": 381
+        },
+        {
+            "time": "2020.10.1",
+            "existing": 24,
+            "death": 3,
+            "cumulative": 411
+        },
+        {
+            "time": "2020.10.15",
+            "existing": 28,
+            "death": 3,
+            "cumulative": 433
+        },
+        {
+            "time": "2020.11.1",
+            "existing": 26,
+            "death": 3,
+            "cumulative": 455
+        },
+        {
+            "time": "2020.11.15",
+            "existing": 45,
+            "death": 3,
+            "cumulative": 487
+        },
+        {
+            "time": "2020.12.1",
+            "existing": 28,
+            "death": 3,
+            "cumulative": 500
+        },
+        {
+            "time": "2020.12.15",
+            "existing": 16,
+            "death": 3,
+            "cumulative": 502
+        },
+        {
+            "time": "2021.1.1",
+            "existing": 13,
+            "death": 3,
+            "cumulative": 505
+        },
+        {
+            "time": "2021.1.15",
+            "existing": 22,
+            "death": 3,
+            "cumulative": 526
+        },
+        {
+            "time": "2021.2.1",
+            "existing": 25,
+            "death": 3,
+            "cumulative": 539
+        },
+        {
+            "time": "2021.2.15",
+            "existing": 10,
+            "death": 3,
+            "cumulative": 544
+        },
+        {
+            "time": "2021.3.1",
+            "existing": 7,
+            "death": 3,
+            "cumulative": 552
+        },
+        {
+            "time": "2021.3.15",
+            "existing": 9,
+            "death": 3,
+            "cumulative": 560
+        },
+        {
+            "time": "2021.4.1",
+            "existing": 10,
+            "death": 3,
+            "cumulative": 566
+        },
+        {
+            "time": "2021.4.15",
+            "existing": 13,
+            "death": 3,
+            "cumulative": 578
+        },
+        {
+            "time": "2021.5.1",
+            "existing": 11,
+            "death": 3,
+            "cumulative": 590
+        },
+        {
+            "time": "2021.5.15",
+            "existing": 11,
+            "death": 3,
+            "cumulative": 600
+        },
+        {
+            "time": "2021.6.1",
+            "existing": 17,
+            "death": 3,
+            "cumulative": 616
+        },
+        {
+            "time": "2021.6.15",
+            "existing": 15,
+            "death": 3,
+            "cumulative": 622
+        },
+        {
+            "time": "2021.7.1",
+            "existing": 6,
+            "death": 3,
+            "cumulative": 627
+        },
+        {
+            "time": "2021.7.15",
+            "existing": 13,
+            "death": 3,
+            "cumulative": 637
+        },
+        {
+            "time": "2021.8.1",
+            "existing": 21,
+            "death": 3,
+            "cumulative": 656
+        },
+        {
+            "time": "2021.8.15",
+            "existing": 23,
+            "death": 3,
+            "cumulative": 667
+        },
+        {
+            "time": "2021.9.1",
+            "existing": 6,
+            "death": 3,
+            "cumulative": 669
+        },
+        {
+            "time": "2021.9.15",
+            "existing": 4,
+            "death": 3,
+            "cumulative": 671
+        },
+        {
+            "time": "2021.10.1",
+            "existing": 2,
+            "death": 3,
+            "cumulative": 672
+        },
+        {
+            "time": "2021.10.15",
+            "existing": 6,
+            "death": 3,
+            "cumulative": 677
+        },
+        {
+            "time": "2021.11.1",
+            "existing": 21,
+            "death": 3,
+            "cumulative": 697
+        },
+        {
+            "time": "2021.11.15",
+            "existing": 15,
+            "death": 3,
+            "cumulative": 703
+        },
+        {
+            "time": "2021.12.1",
+            "existing": 8,
+            "death": 3,
+            "cumulative": 708
+        },
+        {
+            "time": "2021.12.15",
+            "existing": 22,
+            "death": 3,
+            "cumulative": 728
+        },
+        {
+            "time": "2022.1.1",
+            "existing": 1606,
+            "death": 3,
+            "cumulative": 2342
+        },
+        {
+            "time": "2022.1.15",
+            "existing": 1071,
+            "death": 3,
+            "cumulative": 2817
+        },
+        {
+            "time": "2022.2.1",
+            "existing": 26,
+            "death": 3,
+            "cumulative": 2826
+        },
+        {
+            "time": "2022.2.15",
+            "existing": 0,
+            "death": 3,
+            "cumulative": 2826
+        },
+        {
+            "time": "2022.3.1",
+            "existing": 0,
+            "death": 3,
+            "cumulative": 2826
+        },
+        {
+            "time": "2022.3.15",
+            "existing": 245,
+            "death": 3,
+            "cumulative": 3071
+        },
+        {
+            "time": "2022.4.1",
+            "existing": 111,
+            "death": 3,
+            "cumulative": 3221
+        }
+    ]
+}
