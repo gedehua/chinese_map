@@ -41,7 +41,7 @@
             "time": "2020.4.15",
             "existing": 146,
             "death": 3222,
-            "cumulative": 34803
+            "cumulative": 67950
         },
         {
             "time": "2020.5.1",
@@ -83,7 +83,7 @@
             "time": "2020.8.1",
             "existing": 0,
             "death": 4512,
-            "cumulative": 38135
+            "cumulative": 68135
         },
         {
             "time": "2020.8.15",
@@ -161,13 +161,13 @@
             "time": "2021.2.15",
             "existing": 0,
             "death": 4512,
-            "cumulative": 84150
+            "cumulative": 68150
         },
         {
             "time": "2021.3.1",
             "existing": 0,
             "death": 4512,
-            "cumulative": 48151
+            "cumulative": 68151
         },
         {
             "time": "2021.3.15",
@@ -179,13 +179,13 @@
             "time": "2021.4.1",
             "existing": 1,
             "death": 4512,
-            "cumulative": 48152
+            "cumulative": 68152
         },
         {
             "time": "2021.4.15",
             "existing": 3,
             "death": 4512,
-            "cumulative": 48155
+            "cumulative": 68155
         },
         {
             "time": "2021.5.1",
@@ -197,7 +197,7 @@
             "time": "2021.5.15",
             "existing": 6,
             "death": 4512,
-            "cumulative": 48158
+            "cumulative": 68158
         },
         {
             "time": "2021.6.1",
@@ -209,7 +209,7 @@
             "time": "2021.6.15",
             "existing": 1,
             "death": 4512,
-            "cumulative": 58160
+            "cumulative": 68160
         },
         {
             "time": "2021.7.1",
@@ -227,7 +227,7 @@
             "time": "2021.8.1",
             "existing": 20,
             "death": 4512,
-            "cumulative": 86196
+            "cumulative": 68196
         },
         {
             "time": "2021.8.15",
@@ -251,7 +251,7 @@
             "time": "2021.10.1",
             "existing": 10,
             "death": 4512,
-            "cumulative": 48298
+            "cumulative": 68298
         },
         {
             "time": "2021.10.15",
@@ -263,7 +263,7 @@
             "time": "2021.11.1",
             "existing": 12,
             "death": 4512,
-            "cumulative": 48309
+            "cumulative": 68309
         },
         {
             "time": "2021.11.15",
