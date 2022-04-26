@@ -2,16 +2,26 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<title>疫情物流信息</title>
+	<title>疫情数据分析系统</title>
 	<link rel="stylesheet" type="text/css" href="static/css/main.css">
 	<!-- Echarts3 -->
 	<script type="text/javascript" src="static/js/echarts.js"></script>
-	<!-- 全国344个市、区、州对应的数字编号 -->
-	<script type="text/javascript" src="static/js/citymap.js"></script>
+	<script type="text/javascript" src="static/js/jquery.min.js"></script>
 </head>
 <body>
-<div id="main" style="width: 100%;height:900px"></div>
-<script type="text/javascript" src="static/js/jquery.min.js"></script>
-<script type="text/javascript" src="static/js/app.js"></script>
+
+
+<div id="main">
+	<div id="left">
+		<div id="leftTop"></div>
+		<div id="leftBomtoon"></div>
+	</div>
+	<div id="right">
+		<div id="rightTop"></div>
+		<div id="rightBomtoon"></div>
+	</div>
+</div>
+<script type="module" src="static/js/app.js"></script>
+
 </body>
 </html>

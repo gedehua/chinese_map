@@ -46,6 +46,7 @@
                 ],
                 "name": "台湾",
                 "value": 15978,
+                "totalCount": 40186,
                 "childNum": 5
             }
         },
@@ -84,6 +85,7 @@
                 ],
                 "name": "河北",
                 "value": 45,
+                "totalCount": 1986,
                 "childNum": 3
             }
         },
@@ -108,6 +110,7 @@
                 ],
                 "name": "山西",
                 "value": 17,
+                "totalCount": 403,
                 "childNum": 1
             }
         },
@@ -141,6 +144,7 @@
                 ],
                 "name": "内蒙古",
                 "value": 8,
+                "totalCount": 1693,
                 "childNum": 2
             }
         },
@@ -244,6 +248,7 @@
                 ],
                 "name": "辽宁",
                 "value": 40,
+                "totalCount": 1613,
                 "childNum": 16
             }
         },
@@ -268,6 +273,7 @@
                 ],
                 "name": "吉林",
                 "value": 11062,
+                "totalCount": 39549,
                 "childNum": 1
             }
         },
@@ -301,6 +307,7 @@
                 ],
                 "name": "黑龙江",
                 "value": 100,
+                "totalCount": 2718,
                 "childNum": 2
             }
         },
@@ -325,6 +332,7 @@
                 ],
                 "name": "江苏",
                 "value": 89,
+                "totalCount": 2148,
                 "childNum": 1
             }
         },
@@ -563,6 +571,7 @@
                 ],
                 "name": "浙江",
                 "value": 560,
+                "totalCount": 2941,
                 "childNum": 43
             }
         },
@@ -601,6 +610,7 @@
                 ],
                 "name": "安徽",
                 "value": 17,
+                "totalCount": 1060,
                 "childNum": 3
             }
         },
@@ -714,6 +724,7 @@
                 ],
                 "name": "福建",
                 "value": 207,
+                "totalCount": 2986,
                 "childNum": 18
             }
         },
@@ -738,6 +749,7 @@
                 ],
                 "name": "江西",
                 "value": 17,
+                "totalCount": 1115,
                 "childNum": 1
             }
         },
@@ -826,6 +838,7 @@
                 ],
                 "name": "山东",
                 "value": 176,
+                "totalCount": 2670,
                 "childNum": 13
             }
         },
@@ -859,6 +872,7 @@
                 ],
                 "name": "河南",
                 "value": 27,
+                "totalCount": 2862,
                 "childNum": 2
             }
         },
@@ -897,6 +911,7 @@
                 ],
                 "name": "湖北",
                 "value": 3,
+                "totalCount": 68396,
                 "childNum": 3
             }
         },
@@ -935,6 +950,7 @@
                 ],
                 "name": "湖南",
                 "value": 17,
+                "totalCount": 1343,
                 "childNum": 3
             }
         },
@@ -1078,6 +1094,7 @@
                 ],
                 "name": "广东",
                 "value": 205,
+                "totalCount": 6946,
                 "childNum": 24
             }
         },
@@ -1111,6 +1128,7 @@
                 ],
                 "name": "广西",
                 "value": 78,
+                "totalCount": 1561,
                 "childNum": 2
             }
         },
@@ -1135,6 +1153,7 @@
                 ],
                 "name": "海南",
                 "value": 89,
+                "totalCount": 285,
                 "childNum": 1
             }
         },
@@ -1168,6 +1187,7 @@
                 ],
                 "name": "四川",
                 "value": 98,
+                "totalCount": 1991,
                 "childNum": 2
             }
         },
@@ -1206,6 +1226,7 @@
                 ],
                 "name": "贵州",
                 "value": 4,
+                "totalCount": 179,
                 "childNum": 3
             }
         },
@@ -1230,6 +1251,7 @@
                 ],
                 "name": "云南",
                 "value": 28,
+                "totalCount": 2103,
                 "childNum": 1
             }
         },
@@ -1254,6 +1276,7 @@
                 ],
                 "name": "西藏",
                 "value": 0,
+                "totalCount": 1,
                 "childNum": 1
             }
         },
@@ -1278,6 +1301,7 @@
                 ],
                 "name": "陕西",
                 "value": 34,
+                "totalCount": 3273,
                 "childNum": 1
             }
         },
@@ -1316,6 +1340,7 @@
                 ],
                 "name": "甘肃",
                 "value": 1,
+                "totalCount": 681,
                 "childNum": 3
             }
         },
@@ -1349,6 +1374,7 @@
                 ],
                 "name": "青海",
                 "value": 13,
+                "totalCount": 71,
                 "childNum": 2
             }
         },
@@ -1373,6 +1399,7 @@
                 ],
                 "name": "宁夏",
                 "value": 0,
+                "totalCount": 122,
                 "childNum": 1
             }
         },
@@ -1397,6 +1424,7 @@
                 ],
                 "name": "新疆",
                 "value": 0,
+                "totalCount": 999,
                 "childNum": 1
             }
         },
@@ -1421,6 +1449,7 @@
                 ],
                 "name": "北京",
                 "value": 68,
+                "totalCount": 1845,
                 "childNum": 1
             }
         },
@@ -1445,6 +1474,7 @@
                 ],
                 "name": "天津",
                 "value": 9,
+                "totalCount": 1800,
                 "childNum": 1
             }
         },
@@ -1503,6 +1533,7 @@
                 ],
                 "name": "上海",
                 "value": 9650,
+                "totalCount": 35077,
                 "childNum": 7
             }
         },
@@ -1527,6 +1558,7 @@
                 ],
                 "name": "重庆",
                 "value": 1,
+                "totalCount": 694,
                 "childNum": 1
             }
         },
@@ -1575,6 +1607,7 @@
                 ],
                 "name": "香港",
                 "value": 237615,
+                "totalCount": 309935,
                 "childNum": 5
             }
         },
@@ -1599,6 +1632,7 @@
                 ],
                 "name": "澳门",
                 "value": 0,
+                "totalCount": 82,
                 "childNum": 1
             }
         }

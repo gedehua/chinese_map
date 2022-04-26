@@ -1,190 +1,329 @@
 {
-    "type": "FeatureCollection",
-    "features": [
+    "name": "澳门",
+    "data": [
         {
-            "id": "820001",
-            "geometry": {
-                "type": "Polygon",
-                "coordinates": [
-                    "@@LADC^umZ@DONWEBDCLHBH@DFBBNA"
-                ],
-                "encodeOffsets": [
-                    [
-                        116285,
-                        22746
-                    ]
-                ]
-            },
-            "properties": {
-                "cp": [
-                    113.5528956,
-                    22.20787
-                ],
-                "name": "花地瑪堂區",
-                "childNum": 1
-            }
+            "time": "2020.1.15",
+            "existing": 0,
+            "death": 0,
+            "cumulative": 0
         },
         {
-            "id": "820002",
-            "geometry": {
-                "type": "Polygon",
-                "coordinates": [
-                    "@@MK@CA@AAGDEB@NVFHE"
-                ],
-                "encodeOffsets": [
-                    [
-                        116281,
-                        22734
-                    ]
-                ]
-            },
-            "properties": {
-                "cp": [
-                    113.5489608,
-                    22.1992075
-                ],
-                "name": "花王堂區",
-                "childNum": 1
-            }
+            "time": "2020.2.1",
+            "existing": 7,
+            "death": 0,
+            "cumulative": 7
         },
         {
-            "id": "820003",
-            "geometry": {
-                "type": "Polygon",
-                "coordinates": [
-                    "@@EGOB@DNLHE@C"
-                ],
-                "encodeOffsets": [
-                    [
-                        116285,
-                        22729
-                    ]
-                ]
-            },
-            "properties": {
-                "cp": [
-                    113.5501828,
-                    22.19372083
-                ],
-                "name": "望德堂區",
-                "childNum": 1
-            }
+            "time": "2020.2.15",
+            "existing": 5,
+            "death": 0,
+            "cumulative": 10
         },
         {
-            "id": "820004",
-            "geometry": {
-                "type": "Polygon",
-                "coordinates": [
-                    "@@YIPEL@JFCBBFADHDBBFDHIJJEFDPCHHlY"
-                ],
-                "encodeOffsets": [
-                    [
-                        116313,
-                        22707
-                    ]
-                ]
-            },
-            "properties": {
-                "cp": [
-                    113.5536475,
-                    22.18853944
-                ],
-                "name": "大堂區",
-                "childNum": 1
-            }
+            "time": "2020.3.1",
+            "existing": 1,
+            "death": 0,
+            "cumulative": 10
         },
         {
-            "id": "820005",
-            "geometry": {
-                "type": "Polygon",
-                "coordinates": [
-                    "@@JICGAECACGEBAAEDP^"
-                ],
-                "encodeOffsets": [
-                    [
-                        116266,
-                        22728
-                    ]
-                ]
-            },
-            "properties": {
-                "cp": [
-                    113.5419278,
-                    22.18736806
-                ],
-                "name": "風順堂區",
-                "childNum": 1
-            }
+            "time": "2020.3.15",
+            "existing": 1,
+            "death": 0,
+            "cumulative": 11
         },
         {
-            "id": "820006",
-            "geometry": {
-                "type": "Polygon",
-                "coordinates": [
-                    "@@ ZNWRquZCBCC@AEA@@ADCDCAACEAGBQ@IN"
-                ],
-                "encodeOffsets": [
-                    [
-                        116265,
-                        22694
-                    ]
-                ]
-            },
-            "properties": {
-                "cp": [
-                    113.5587044,
-                    22.15375944
-                ],
-                "name": "嘉模堂區",
-                "childNum": 1
-            }
+            "time": "2020.4.1",
+            "existing": 30,
+            "death": 0,
+            "cumulative": 43
         },
         {
-            "id": "820007",
-            "geometry": {
-                "type": "Polygon",
-                "coordinates": [
-                    "@@MOIAIEI@@GE@AAUCBdCFIFR@HAFBBDDBDCBCDB@BFDDC"
-                ],
-                "encodeOffsets": [
-                    [
-                        116316,
-                        22676
-                    ]
-                ]
-            },
-            "properties": {
-                "cp": [
-                    113.5695992,
-                    22.13663
-                ],
-                "name": "路氹填海區",
-                "childNum": 1
-            }
+            "time": "2020.4.15",
+            "existing": 2,
+            "death": 0,
+            "cumulative": 45
         },
         {
-            "id": "820008",
-            "geometry": {
-                "type": "Polygon",
-                "coordinates": [
-                    "@@DKMMa_GC_COD@dVDBBF@@HJ@JFJBNP"
-                ],
-                "encodeOffsets": [
-                    [
-                        116329,
-                        22670
-                    ]
-                ]
-            },
-            "properties": {
-                "cp": [
-                    113.5599542,
-                    22.12348639
-                ],
-                "name": "聖方濟各堂區",
-                "childNum": 1
-            }
+            "time": "2020.5.1",
+            "existing": 0,
+            "death": 0,
+            "cumulative": 45
+        },
+        {
+            "time": "2020.5.15",
+            "existing": 0,
+            "death": 0,
+            "cumulative": 45
+        },
+        {
+            "time": "2020.6.1",
+            "existing": 0,
+            "death": 0,
+            "cumulative": 45
+        },
+        {
+            "time": "2020.6.15",
+            "existing": 0,
+            "death": 0,
+            "cumulative": 45
+        },
+        {
+            "time": "2020.7.1",
+            "existing": 1,
+            "death": 0,
+            "cumulative": 46
+        },
+        {
+            "time": "2020.7.15",
+            "existing": 0,
+            "death": 0,
+            "cumulative": 46
+        },
+        {
+            "time": "2020.8.1",
+            "existing": 0,
+            "death": 0,
+            "cumulative": 46
+        },
+        {
+            "time": "2020.8.15",
+            "existing": 0,
+            "death": 0,
+            "cumulative": 46
+        },
+        {
+            "time": "2020.9.1",
+            "existing": 0,
+            "death": 0,
+            "cumulative": 46
+        },
+        {
+            "time": "2020.9.15",
+            "existing": 0,
+            "death": 0,
+            "cumulative": 46
+        },
+        {
+            "time": "2020.10.1",
+            "existing": 0,
+            "death": 0,
+            "cumulative": 46
+        },
+        {
+            "time": "2020.10.15",
+            "existing": 0,
+            "death": 0,
+            "cumulative": 46
+        },
+        {
+            "time": "2020.11.1",
+            "existing": 0,
+            "death": 0,
+            "cumulative": 46
+        },
+        {
+            "time": "2020.11.15",
+            "existing": 0,
+            "death": 0,
+            "cumulative": 46
+        },
+        {
+            "time": "2020.12.1",
+            "existing": 0,
+            "death": 0,
+            "cumulative": 46
+        },
+        {
+            "time": "2020.12.15",
+            "existing": 0,
+            "death": 0,
+            "cumulative": 46
+        },
+        {
+            "time": "2021.1.1",
+            "existing": 0,
+            "death": 0,
+            "cumulative": 46
+        },
+        {
+            "time": "2021.1.15",
+            "existing": 0,
+            "death": 0,
+            "cumulative": 46
+        },
+        {
+            "time": "2021.2.1",
+            "existing": 1,
+            "death": 0,
+            "cumulative": 47
+        },
+        {
+            "time": "2021.2.15",
+            "existing": 2,
+            "death": 0,
+            "cumulative": 48
+        },
+        {
+            "time": "2021.3.1",
+            "existing": 1,
+            "death": 0,
+            "cumulative": 48
+        },
+        {
+            "time": "2021.3.15",
+            "existing": 0,
+            "death": 0,
+            "cumulative": 48
+        },
+        {
+            "time": "2021.4.1",
+            "existing": 0,
+            "death": 0,
+            "cumulative": 48
+        },
+        {
+            "time": "2021.4.15",
+            "existing": 1,
+            "death": 0,
+            "cumulative": 49
+        },
+        {
+            "time": "2021.5.1",
+            "existing": 0,
+            "death": 0,
+            "cumulative": 49
+        },
+        {
+            "time": "2021.5.15",
+            "existing": 1,
+            "death": 0,
+            "cumulative": 49
+        },
+        {
+            "time": "2021.6.1",
+            "existing": 2,
+            "death": 0,
+            "cumulative": 51
+        },
+        {
+            "time": "2021.6.15",
+            "existing": 1,
+            "death": 0,
+            "cumulative": 52
+        },
+        {
+            "time": "2021.7.1",
+            "existing": 2,
+            "death": 0,
+            "cumulative": 54
+        },
+        {
+            "time": "2021.7.15",
+            "existing": 2,
+            "death": 0,
+            "cumulative": 55
+        },
+        {
+            "time": "2021.8.1",
+            "existing": 4,
+            "death": 0,
+            "cumulative": 59
+        },
+        {
+            "time": "2021.8.15",
+            "existing": 6,
+            "death": 0,
+            "cumulative": 63
+        },
+        {
+            "time": "2021.9.1",
+            "existing": 2,
+            "death": 0,
+            "cumulative": 63
+        },
+        {
+            "time": "2021.9.15",
+            "existing": 0,
+            "death": 0,
+            "cumulative": 63
+        },
+        {
+            "time": "2021.10.1",
+            "existing": 0,
+            "death": 0,
+            "cumulative": 63
+        },
+        {
+            "time": "2021.10.15",
+            "existing": 8,
+            "death": 0,
+            "cumulative": 71
+        },
+        {
+            "time": "2021.11.1",
+            "existing": 0,
+            "death": 0,
+            "cumulative": 77
+        },
+        {
+            "time": "2021.11.15",
+            "existing": 0,
+            "death": 0,
+            "cumulative": 77
+        },
+        {
+            "time": "2021.12.1",
+            "existing": 0,
+            "death": 0,
+            "cumulative": 77
+        },
+        {
+            "time": "2021.12.15",
+            "existing": 0,
+            "death": 0,
+            "cumulative": 77
+        },
+        {
+            "time": "2022.1.1",
+            "existing": 2,
+            "death": 0,
+            "cumulative": 79
+        },
+        {
+            "time": "2022.1.15",
+            "existing": 0,
+            "death": 0,
+            "cumulative": 79
+        },
+        {
+            "time": "2022.2.1",
+            "existing": 0,
+            "death": 0,
+            "cumulative": 79
+        },
+        {
+            "time": "2022.2.15",
+            "existing": 0,
+            "death": 0,
+            "cumulative": 79
+        },
+        {
+            "time": "2022.3.1",
+            "existing": 3,
+            "death": 0,
+            "cumulative": 82
+        },
+        {
+            "time": "2022.3.15",
+            "existing": 0,
+            "death": 0,
+            "cumulative": 82
+        },
+        {
+            "time": "2022.4.1",
+            "existing": 0,
+            "death": 0,
+            "cumulative": 82
         }
-    ],
-    "UTF8Encoding": true
+    ]
 }
